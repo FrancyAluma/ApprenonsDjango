@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'imgs/p1.png' %}">
+
+    <style>
+        img {
+            width: 300px;
+            height: 200px;
+        }
+         h1{
+             font-size: 40px;
+           text-align: center;
+           color: blue;
+             background-color: red;
+             line-height: 80px;
+             
+         }
+         h1:hover{
+             background-color: cyan;
+         }
+        
+    </style>
+</head>
+<body>
+<h1>Homepage</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aliquam aperiam corporis ex excepturi iure, magnam maiores nulla optio pariatur qui repellat repudiandae soluta sunt, tempore unde ut voluptatem?</span><span>Aut cumque debitis dignissimos earum, eligendi est, id incidunt libero obcaecati placeat quas, tempore unde ut veniam voluptatem! Dignissimos dolor eius id laborum minima molestiae necessitatibus, officia quis reprehenderit voluptas.</span><span>A adipisci architecto asperiores atque cumque dicta eligendi esse explicabo neque nobis non nostrum, pariatur perspiciatis quibusdam quis quos voluptatem! Deserunt ea labore laudantium, magnam quasi quos sequi similique vel?</span><span>Ad beatae consequatur consequuntur cumque distinctio ea eos error eveniet expedita laboriosam laborum libero minima molestiae natus nulla omnis perspiciatis porro praesentium quam quas quod, recusandae repellat repellendus soluta vero.</span><span>Aut autem blanditiis consectetur culpa debitis dignissimos dolore dolores ducimus error, esse est explicabo hic illum inventore ipsum laborum mollitia nisi odit possimus qui quidem quis saepe voluptate? Nesciunt, non?</span></p>
+<img src="{% static 'imgs/images (1).jpg' %}" alt="">
+<img src="{% static 'imgs/images (2).jpg' %}" alt="">
+<img src="{% static 'imgs/images (3).jpg' %}" alt="">
+<img src="{% static 'imgs/images (4).jpg' %}" alt="">
+
+</body>
+</html>
